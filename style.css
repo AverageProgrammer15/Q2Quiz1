@@ -1,0 +1,59 @@
+/*animations*/
+
+@keyframes OnloadTitle{
+	0%{transform: scale(0.0);}
+	50%{transform: scale(0.5);}
+	100%{transform: scale(1.0);}
+}
+
+@keyframes BackgroundClrs{
+	0%{background-color:blue; }
+	25%{background-color:red; }
+	50%{background-color: white;}
+	75%{background-color: yellow}
+	100%{background-color: blue;}
+}
+
+
+/*classes*/
+.RoworCol{
+	border: 1px black solid;
+}
+
+#Name{
+	animation-name: OnloadTitle;
+	animation-duration: 1.5s;
+}
+
+
+#FrTableAni{
+	animation-name: OnloadTitle;
+	animation-duration: 1.5s;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+
+}
+
+a:hover{
+	text-decoration: underline;
+	color: blue;
+}
+
+.Reference_Page{
+	background-color: whitesmoke;
+	display: inline-block;
+	border-color: black;
+	border-style: solid;
+	width: 940px;
+}
+
+body{
+	animation-name: BackgroundClrs;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+}
+
+/**/
